@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 
+
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+          Default react App Component text!
+          {this.props.children}
+      </div>
+
     );
   }
 }
